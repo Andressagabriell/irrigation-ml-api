@@ -1,18 +1,19 @@
 {
   "name": "irrigation-ml-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API de Machine Learning para sistema de irrigacao",
+  "main": "server.js",
   "scripts": {
+    "build": "npm install && node train.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "csvtojson": "^2.0.14",
-    "express": "^5.2.1",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.2",
     "ml-random-forest": "^2.1.0"
   }
 }

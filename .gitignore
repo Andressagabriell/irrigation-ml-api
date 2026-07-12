@@ -1,0 +1,4 @@
+﻿node_modules
+dataset.csv
+model.json
+.env
